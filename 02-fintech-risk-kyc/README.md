@@ -1,10 +1,8 @@
-## FinTech Risk & KYC Monitoring Dashboard
+# FinTech Risk & KYC Monitoring Dashboard
 
 This project simulates a real-world FinTech / Banking Transaction Monitoring system used by Risk, Fraud and Compliance teams to detect suspicious activities such as money laundering, fraud and sanctions breaches.
 
 The dashboard is built using Power BI on top of a multi-table transactional data model representing customers, merchants, payments and AML/Fraud alerts.
-
-## Business Questions Answered
 
 # This dashboard helps answer:
 
