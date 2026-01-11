@@ -4,7 +4,7 @@ This project simulates a real-world FinTech / Banking Transaction Monitoring sys
 
 The dashboard is built using Power BI on top of a multi-table transactional data model representing customers, merchants, payments and AML/Fraud alerts.
 
-# This dashboard helps answer:
+## This dashboard helps answer:
 
 - How many transactions are being processed?
 - How many are flagged for AML or Fraud?
@@ -14,7 +14,7 @@ The dashboard is built using Power BI on top of a multi-table transactional data
 - What types of alerts (AML vs Fraud) dominate operational workload?
 - Which transactions are currently under investigation?
 
-# Data Model
+## Data Model
 
 The model follows a **bank-grade star schema**:
 
@@ -30,7 +30,7 @@ Two different date contexts are handled using **active and inactive relationship
 
 This allows accurate trend analysis for both payments and alerts.
 
-# Key KPIs
+## Key KPIs
 
 - Total Transactions  
 - Alert Count  
@@ -39,7 +39,7 @@ This allows accurate trend analysis for both payments and alerts.
 - Average Risk Score  
 - Blocked Amount  
 
-# Visuals
+## Visuals
 
 - Alerts Trend by Month  
 - AML vs Fraud workload  
@@ -47,7 +47,7 @@ This allows accurate trend analysis for both payments and alerts.
 - Blocked Funds by Industry  
 - Alert Table (case-level investigation)
 
-# Skills Demonstrated
+## Skills Demonstrated
 
 - Power BI Data Modeling  
 - Time Intelligence (USERELATIONSHIP)  
@@ -56,7 +56,7 @@ This allows accurate trend analysis for both payments and alerts.
 - FinTech Transaction Monitoring  
 - Dashboard UX Design  
 
-# Files
+## Files
 
 - `Risk_KYC_Dashboard.pbix` – Interactive Power BI report  
 - `Overview.png` – Dashboard overview  
