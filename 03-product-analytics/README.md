@@ -5,9 +5,7 @@ This project demonstrates an end-to-end **Product Analytics** solution built in 
 The dashboard enables stakeholders to understand how users move from **product views → cart → checkout → purchase**, and how active and sticky the user base is over time.
 
 
-# Business Objectives
-
-This dashboard answers key product questions:
+## This dashboard answers key product questions:
 
 - How many users are actively using the product?
 - How sticky is the product (DAU vs MAU)?
@@ -16,16 +14,16 @@ This dashboard answers key product questions:
 - Are conversions improving or declining over time?
 
 
-# Key Metrics Implemented
+## Key Metrics Implemented
 
-## Engagement
+### Engagement
 - Total Users
 - Total Sessions
 - DAU (Daily Active Users)
 - MAU (30-Day Rolling)
 - Stickiness % (DAU / MAU)
 
-## Funnel
+### Funnel
 - View Item Users
 - Add to Cart Users
 - Checkout Users
@@ -36,7 +34,7 @@ This dashboard answers key product questions:
   - Checkout → Purchase
 
 
-# Core Analytics Logic
+## Core Analytics Logic
 
 This dashboard was built using a star-schema model with relationships between:
 
@@ -46,7 +44,7 @@ This dashboard was built using a star-schema model with relationships between:
 - `Calendar`
 - `Products`
 
-Key DAX techniques used:
+## Key DAX techniques used:
 - `DISTINCTCOUNT` for user-level funnel
 - Rolling windows for MAU
 - `DATESINPERIOD` for time-based engagement
@@ -54,7 +52,7 @@ Key DAX techniques used:
 - Conversion rate measures
 
 
-# Funnel Design
+## Funnel Design
 
 The funnel tracks unique users through the following event stages:
 
@@ -68,10 +66,10 @@ Users are counted uniquely per stage to avoid double counting and to reflect tru
 
 ## Dashboard Preview
 
-# Overview
+### Overview
 screenshots/overview.png
 
-# Funnel Analysis
+### Funnel Analysis
 screenshots/Conversion Bar Chart.png
 
 
